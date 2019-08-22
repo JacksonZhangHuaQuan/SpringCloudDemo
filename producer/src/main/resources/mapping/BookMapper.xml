@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhanghq.producer.mapper.BookMapper">
+  <resultMap id="BaseResultMap" type="com.zhanghq.common.entity.Book" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="author" property="author" jdbcType="VARCHAR" />
+    <result column="pay" property="pay" jdbcType="DOUBLE" />
+    <result column="buy_time" property="buyTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, author, pay, buy_time
+  </sql>
+  <select id="selectAllBooks" resultType="com.zhanghq.common.entity.Book">
+    select
+    <include refid="Base_Column_List"/>
+    from book;
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from book
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from book
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.zhanghq.common.entity.Book" >
+    insert into book (id, name, author, 
+      pay, buy_time)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{author,jdbcType=VARCHAR}, 
+      #{pay,jdbcType=DOUBLE}, #{buyTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zhanghq.common.entity.Book" >
+    insert into book
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="author != null" >
+        author,
+      </if>
+      <if test="pay != null" >
+        pay,
+      </if>
+      <if test="buyTime != null" >
+        buy_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null" >
+        #{author,jdbcType=VARCHAR},
+      </if>
+      <if test="pay != null" >
+        #{pay,jdbcType=DOUBLE},
+      </if>
+      <if test="buyTime != null" >
+        #{buyTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhanghq.common.entity.Book" >
+    update book
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null" >
+        author = #{author,jdbcType=VARCHAR},
+      </if>
+      <if test="pay != null" >
+        pay = #{pay,jdbcType=DOUBLE},
+      </if>
+      <if test="buyTime != null" >
+        buy_time = #{buyTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zhanghq.common.entity.Book" >
+    update book
+    set name = #{name,jdbcType=VARCHAR},
+      author = #{author,jdbcType=VARCHAR},
+      pay = #{pay,jdbcType=DOUBLE},
+      buy_time = #{buyTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
