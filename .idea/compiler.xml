@@ -9,8 +9,9 @@
         <module name="demo" />
         <module name="common" />
         <module name="eureka-sever" />
-        <module name="producer" />
         <module name="comsumer" />
+        <module name="producer" />
+        <module name="feign_consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="common" options="-parameters" />
       <module name="comsumer" options="-parameters" />
       <module name="eureka-sever" options="-parameters" />
+      <module name="feign_consumer" options="-parameters" />
       <module name="producer" options="-parameters" />
       <module name="producers" options="-parameters" />
     </option>

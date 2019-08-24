@@ -1,7 +1,7 @@
-package com.zhanghq.comsumer.web;
+package com.zhanghq.comsumer.web.book;
 
 import com.zhanghq.common.entity.Book;
-import com.zhanghq.comsumer.service.BookComsumerService;
+import com.zhanghq.comsumer.service.book.BookComsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

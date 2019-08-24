@@ -1,4 +1,4 @@
-package com.zhanghq.producer.service;
+package com.zhanghq.producer.service.book;
 
 
 import com.zhanghq.common.entity.Book;

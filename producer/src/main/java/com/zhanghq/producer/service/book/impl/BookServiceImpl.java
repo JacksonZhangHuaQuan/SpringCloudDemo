@@ -1,8 +1,8 @@
-package com.zhanghq.producer.service.impl;
+package com.zhanghq.producer.service.book.impl;
 
 import com.zhanghq.common.entity.Book;
 import com.zhanghq.producer.mapper.BookMapper;
-import com.zhanghq.producer.service.BookService;
+import com.zhanghq.producer.service.book.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
