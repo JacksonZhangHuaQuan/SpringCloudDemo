@@ -17,3 +17,10 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml     #mapper文件路径
   type-aliases-package: com.zhanghq.producer.entity   #实体类的包路径
+
+#解决http://localhost:8762/actuator/hystrix.stream无法访问的问题
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

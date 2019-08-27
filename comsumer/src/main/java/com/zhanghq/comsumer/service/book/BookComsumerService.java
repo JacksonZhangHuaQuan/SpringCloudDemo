@@ -14,6 +14,6 @@ import java.util.List;
  */
 public interface BookComsumerService {
 
-    public List<Book> getAllBooks();
+    List<Book> getAllBooks();
 
 }

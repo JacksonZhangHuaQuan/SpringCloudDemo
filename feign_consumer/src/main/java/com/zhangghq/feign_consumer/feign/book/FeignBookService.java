@@ -1,5 +1,6 @@
 package com.zhangghq.feign_consumer.feign.book;
 
+import com.zhangghq.feign_consumer.hystric.book.BookHystric;
 import com.zhanghq.common.entity.Book;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +16,7 @@ import java.util.List;
  * @return
  */
 
-@FeignClient(value = "producer")
+@FeignClient(value = "producer", fallback = BookHystric.class)
 public interface FeignBookService {
 
     @GetMapping("/book/selectAllBooks")

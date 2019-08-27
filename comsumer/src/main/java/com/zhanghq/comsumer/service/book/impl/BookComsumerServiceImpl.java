@@ -1,5 +1,6 @@
 package com.zhanghq.comsumer.service.book.impl;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.zhanghq.common.entity.Book;
 import com.zhanghq.comsumer.service.book.BookComsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,9 +26,14 @@ public class BookComsumerServiceImpl implements BookComsumerService {
     RestTemplate restTemplate;
 
     @Override
+    @HystrixCommand(fallbackMethod = "getAllBooksError") //服务挂掉后 进入的方法名
     public List<Book> getAllBooks(){
         Book[] books = restTemplate.getForObject("http://producer/book/selectAllBooks", Book[].class);
         List<Book> bookList = Arrays.asList(books);
         return bookList;
+    }
+
+    public List<Book> getAllBooksError(){
+        return null;
     }
 }
