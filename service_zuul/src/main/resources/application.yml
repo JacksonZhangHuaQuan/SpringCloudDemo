@@ -1,0 +1,38 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8765
+
+spring:
+  application:
+    name: service-zuul
+      #第二种方式配置zuul地址映射(服务ID)
+      #zuul:
+      #  routes:
+      #    api-a:
+      #      path: /api-a/**
+      #      service-id: service-consumer-feign
+      #    api-b:
+      #      path: /api-b/**
+      #      service-id: service-consumer-ribbon
+      #第一种方式配置url映射
+      #zuul:
+      #  routes:
+      #    feign:
+      #      path: /feign/**
+    #      url: http://localhost:8085/
+#第三中方式zuul.routes.服务名称: 访问路径
+zuul:
+  routes:
+    consumer-feign: /feign/**
+    consumer-ribbon: /ribbon/**
+  #若忽略某个微服务不走网关，则这样设置：
+  #ignored-services: service-consumer-ribbon
+  #路由前缀
+  #prefix: /zuul
+  #默认不生效，要想生效，zuul.stripPrefix=false 把忽略前缀设置成false
+  #strip-prefix: false
+

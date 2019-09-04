@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/producer/pom.xml" />
         <option value="$PROJECT_DIR$/comsumer/pom.xml" />
         <option value="$PROJECT_DIR$/feign_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service_zuul/pom.xml" />
       </list>
     </option>
   </component>

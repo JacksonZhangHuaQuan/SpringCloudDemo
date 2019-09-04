@@ -12,6 +12,7 @@
         <module name="comsumer" />
         <module name="producer" />
         <module name="feign_consumer" />
+        <module name="service_zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="feign_consumer" options="-parameters" />
       <module name="producer" options="-parameters" />
       <module name="producers" options="-parameters" />
+      <module name="service_zuul" options="-parameters" />
     </option>
   </component>
 </project>

@@ -8,7 +8,7 @@ server:
   port: 8764
 spring:
   application:
-    name: feign-comsumer
+    name: consumer-feign
 feign:
   hystrix:
     enabled: true #开启断路器(熔断器) 这个注解不提示 但是不影响它的使用
