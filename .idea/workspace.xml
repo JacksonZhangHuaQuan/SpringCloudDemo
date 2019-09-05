@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be031bb-cc28-4309-b0fc-2354455b660e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+            <state relative-caret-position="189">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -64,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="191">
               <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,10 +154,10 @@
         <option value="$PROJECT_DIR$/producer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/feign_consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java" />
-        <option value="$PROJECT_DIR$/config_service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config_client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/config_service/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -516,7 +513,7 @@
       <workItem from="1567387107645" duration="6753000" />
       <workItem from="1567410992888" duration="1312000" />
       <workItem from="1567560752443" duration="8113000" />
-      <workItem from="1567644934803" duration="6929000" />
+      <workItem from="1567644934803" duration="7468000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.1 优化代码，添加了feign功能">
       <created>1566618674323</created>
@@ -546,16 +543,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567568204834</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.3.1 添加了config配置中心">
+      <created>1567680496888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567680496888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90840000" />
+    <option name="totallyTimeSpent" value="91379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30484116" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30484116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,7 +570,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3715221" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.49016392" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.49016392" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,7 +582,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -598,7 +603,8 @@
     <MESSAGE value="1.1.0 添加了hystrix断路器的使用" />
     <MESSAGE value="1.2.0 添加了zuul路由网关的使用" />
     <MESSAGE value="1.2.1 添加了zuul路由网关的优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2.1 添加了zuul路由网关的优化" />
+    <MESSAGE value="1.3.1 添加了config配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3.1 添加了config配置中心" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zhanghq/common/entity/User.java" />
@@ -950,22 +956,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config_service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="191">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
