@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="config_service" />
         <module name="common" />
         <module name="eureka-sever" />
+        <module name="config_client" />
         <module name="comsumer" />
         <module name="producer" />
         <module name="feign_consumer" />
@@ -23,6 +25,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="comsumer" options="-parameters" />
+      <module name="config_client" options="-parameters" />
+      <module name="config_service" options="-parameters" />
       <module name="eureka-sever" options="-parameters" />
       <module name="feign_consumer" options="-parameters" />
       <module name="producer" options="-parameters" />
