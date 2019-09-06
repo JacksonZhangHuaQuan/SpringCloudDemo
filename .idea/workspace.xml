@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be031bb-cc28-4309-b0fc-2354455b660e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config_client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config_client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,24 +35,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252" />
+            <state relative-caret-position="147">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="126">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="63">
+              <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -55,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="126">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -64,22 +80,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="399">
               <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="231">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -107,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/producer/src/main/resources/mapping/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/common/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/zhanghq/common/entity/Book.java" />
         <option value="$PROJECT_DIR$/common/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/comsumer/src/main/java/com/zhanghq/comsumer/service/BookService.java" />
@@ -153,11 +165,13 @@
         <option value="$PROJECT_DIR$/eureka-sever/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/producer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/feign_consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java" />
-        <option value="$PROJECT_DIR$/config_client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java" />
         <option value="$PROJECT_DIR$/config_service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config_service/pom.xml" />
+        <option value="$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java" />
+        <option value="$PROJECT_DIR$/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/config_client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java" />
       </list>
     </option>
   </component>
@@ -212,8 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,10 +319,47 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,7 +562,8 @@
       <workItem from="1567387107645" duration="6753000" />
       <workItem from="1567410992888" duration="1312000" />
       <workItem from="1567560752443" duration="8113000" />
-      <workItem from="1567644934803" duration="7468000" />
+      <workItem from="1567644934803" duration="7924000" />
+      <workItem from="1567731206663" duration="2339000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.1 优化代码，添加了feign功能">
       <created>1566618674323</created>
@@ -550,17 +600,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567680496888</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.3.1 添加了config配置中心">
+      <created>1567680962421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567680962421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91379000" />
+    <option name="totallyTimeSpent" value="94174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30484116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -570,7 +627,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3715221" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.49016392" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.49016392" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +639,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.16229509" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,7 +664,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.3.1 添加了config配置中心" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zhanghq/common/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zhanghq/common/CommonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -693,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/producer/src/main/java/com/zhanghq/producer/web/book/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -761,13 +810,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-139" />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign_consumer/src/main/java/com/zhangghq/feign_consumer/FeignConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -868,18 +910,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feign_consumer/src/main/resources/static/test.html" />
-    <entry file="file://$PROJECT_DIR$/producer/src/main/java/com/zhanghq/producer/ProducerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign_consumer/src/main/java/com/zhangghq/feign_consumer/hystric/FignHelloHystric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -894,13 +924,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign_consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -925,53 +948,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252" />
+        <state relative-caret-position="147">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config_client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315" />
+        <state relative-caret-position="210">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/feign_consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_service/src/main/java/com/zhanghq/config_service/ConfigServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config_service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="63">
+          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign_consumer/src/main/java/com/zhangghq/feign_consumer/FeignConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer/src/main/java/com/zhanghq/producer/ProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_client/src/main/java/com/zhanghq/config_client/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>

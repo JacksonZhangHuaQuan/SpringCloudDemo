@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="feign_consumer" />
         <module name="config_service" />
         <module name="common" />
         <module name="eureka-sever" />
-        <module name="config_client" />
         <module name="comsumer" />
         <module name="producer" />
-        <module name="feign_consumer" />
+        <module name="config_client" />
         <module name="service_zuul" />
       </profile>
     </annotationProcessing>
