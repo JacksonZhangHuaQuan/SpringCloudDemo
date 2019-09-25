@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/service_zuul/pom.xml" />
         <option value="$PROJECT_DIR$/config_service/pom.xml" />
         <option value="$PROJECT_DIR$/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/service_gateway/pom.xml" />
       </list>
     </option>
   </component>

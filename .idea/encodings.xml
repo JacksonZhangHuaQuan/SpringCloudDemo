@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/eureka-sever" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign_consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_zuul" charset="UTF-8" />
   </component>
 </project>
