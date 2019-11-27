@@ -5,15 +5,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8762
+  port: 8769
 spring:
   application:
-    name: producer
-  datasource:
-    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-    username: root
-    password: qq199511
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: cache-client
   redis:
     database: 0        # Redis数据库索引（默认为0）
     host: localhost    # Redis服务器地址
@@ -23,13 +18,3 @@ spring:
     max-idle: 20       # 连接池中的最大空闲连接
     min-idle: 0        # 连接池中的最小空闲连接
     timeout: 3000      # 连接超时时间（毫秒）
-mybatis:
-  mapper-locations: classpath:mapping/*.xml     #mapper文件路径
-  type-aliases-package: com.zhanghq.producer.entity   #实体类的包路径
-
-#解决http://localhost:8762/actuator/hystrix.stream无法访问的问题
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"

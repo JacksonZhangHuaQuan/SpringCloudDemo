@@ -3,10 +3,7 @@ package com.zhanghq.producer.web.book;
 import com.zhanghq.common.entity.Book;
 import com.zhanghq.producer.service.book.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -35,6 +32,12 @@ public class BookController {
     @RequestMapping(value = "/selectAllBooks", method = RequestMethod.GET)
     private List<Book> sllectAllBooks(){
         return bookService.selectAllBooks();
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/getBook", method = RequestMethod.GET)
+    private Book getBook(@RequestParam String id){
+        return bookService.selectByPrimaryKey(new Integer(id));
     }
 
     @RequestMapping(value = "/insertAllBooks", method = RequestMethod.GET)

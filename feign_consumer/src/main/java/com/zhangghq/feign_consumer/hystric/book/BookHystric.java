@@ -22,4 +22,9 @@ public class BookHystric implements FeignBookService {
     public List<Book> getAllBooks() {
         return null;
     }
+
+    @Override
+    public Book getBook(String id) {
+        return null;
+    }
 }

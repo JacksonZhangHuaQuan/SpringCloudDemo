@@ -6,24 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="feign_consumer" />
+        <module name="cache-client" />
         <module name="config_service" />
         <module name="common" />
         <module name="service_gateway" />
         <module name="eureka-sever" />
+        <module name="config_client" />
         <module name="comsumer" />
         <module name="producer" />
-        <module name="config_client" />
+        <module name="feign_consumer" />
         <module name="service_zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cache_client" target="1.8" />
       <module name="producers" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cache-client" options="-parameters" />
+      <module name="cache_client" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="comsumer" options="-parameters" />
       <module name="config_client" options="-parameters" />

@@ -8,6 +8,7 @@ import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableEurekaClient
@@ -15,6 +16,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableHystrixDashboard //开启HystrixDashboard
 @EnableCircuitBreaker //
 @MapperScan("com.zhanghq.producer.mapper")
+@ComponentScan(basePackages={"com.zhanghq"}) // 默认扫描是本模块Application同级的包
 public class ProducerApplication {
 
     public static void main(String[] args) {
