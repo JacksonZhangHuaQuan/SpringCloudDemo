@@ -9,6 +9,8 @@ server:
 spring:
   application:
     name: consumer-feign
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
 feign:
   hystrix:
     enabled: true #开启断路器(熔断器) 这个注解不提示 但是不影响它的使用
