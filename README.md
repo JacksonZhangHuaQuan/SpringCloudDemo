@@ -23,7 +23,9 @@
   produce -------------------------- 服务生成者，主要是从数据库中获取数据，提供服务
   
   service_zuul --------------------- Zuul的主要功能是路由转发和过滤器
-
+  
+  
+具体实现步骤：
 
 Spring cloud学习之路（一，创建项目-父模块）https://blog.csdn.net/Zhang_Jackson/article/details/103288516
 
